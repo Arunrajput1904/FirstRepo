@@ -5,4 +5,5 @@ public class FunDto {
     private Long id;
     private String email;
     private String name;
+    private Integer rollNo;
 }
