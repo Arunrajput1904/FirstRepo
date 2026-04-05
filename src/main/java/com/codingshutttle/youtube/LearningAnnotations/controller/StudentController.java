@@ -84,4 +84,8 @@ public class StudentController {
         return studentservice.getAllStudentsbetween( start,end);
     }
 
+    @GetMapping("/student/getall")
+    public List<Student> getall(){
+        return studentservice.getallstudent();
+    }
 }

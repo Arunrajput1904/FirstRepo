@@ -6,4 +6,6 @@ public class FunDto {
     private String email;
     private String name;
     private Integer rollNo;
+    private Long Alpha;
+
 }
