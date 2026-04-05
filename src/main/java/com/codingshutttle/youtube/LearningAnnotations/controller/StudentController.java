@@ -88,4 +88,6 @@ public class StudentController {
     public List<Student> getall(){
         return studentservice.getallstudent();
     }
+
+
 }
